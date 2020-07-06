@@ -1,0 +1,16 @@
+.App {
+  margin: auto;
+  text-align: center;
+  width: 1274px;
+  background-image: url(img/background.png);
+  background-repeat: no-repeat;
+  /* position: absolute; */
+  z-index: 1;
+}
+
+.persefona {
+  margin-left: 50px;
+  margin-top: 500px;
+  z-index: 0;
+}
+

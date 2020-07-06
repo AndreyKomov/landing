@@ -1,0 +1,89 @@
+.services {
+  width: 1274px;
+  height: 625px;
+  background-image: url(img/back_shape.png);
+  z-index: 1;
+  position: relative;
+}
+
+.work {
+  margin-top: 10px;
+  margin-left: 355px;
+}
+
+.title {
+  margin-top: -150px;
+  margin-left: 319px;
+}
+
+.title li {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "Proxima Nova";
+  font-weight: 300;
+  text-align: left;
+}
+
+.title p {
+  margin-left: -25px;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "Proxima Nova";
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.list {
+  margin-top: 10px;
+  margin-left: 330px;
+  text-align: left;
+}
+
+.list a {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "Proxima Nova";
+  font-weight: bold;
+  text-transform: uppercase;
+  /* text-align: left; */
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.list a:hover {
+  background: url(img/active_hover.png);
+  background-repeat: no-repeat;
+  z-index: 5;
+}
+
+.button2 {
+  margin-top: 25px;
+  margin-left: 450px;
+}
+
+.register {
+  margin-top: -55px;
+  margin-left: 775px;
+  font-size: 30px;
+  color: #ffffff;
+  font-family: "Proxima Nova";
+  font-weight: 800;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  display: flex;
+}
+
+.register_text {
+  margin-top: 25px;
+  margin-left: 760px;
+  width: 248px;
+  height: 53px;
+  font-size: 17px;
+  color: #594aaf;
+  font-family: "Proxima Nova";
+  font-weight: 300;
+  text-align: right;
+  line-height: 5px;
+}
