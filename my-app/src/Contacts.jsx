@@ -13,7 +13,9 @@ class Contacts extends React.Component {
           <p className="consultation">записаться<br />на консультацию</p>
           <input className="contacts_name" type="text" required placeholder="Имя"></input>
           <input className="contacts_phone" type="text" required placeholder="Телефон"></input>
-          <button className="contacts_submit" type="submit"></button>
+          <button className="contacts_submit" type="submit" onClick={()=>{
+            alert ("Ваши данные отправлены");
+          }}></button>
         </form>
 
         <div className="contacts_text">
